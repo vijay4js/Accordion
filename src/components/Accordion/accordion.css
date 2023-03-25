@@ -1,0 +1,34 @@
+.ac-wrapper {
+  height: 500px;
+  width: 600px;
+  overflow: scroll;
+  margin: 20% auto;
+  border: solid 1px gray;
+
+  /* border: solid 1px gray; */
+}
+
+.ac-item-wrapper {
+  border-bottom: solid 1px gray;
+}
+
+.ac-title-wrapper {
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ac-content {
+  padding: 20px;
+  background-color: gray;
+  color: white;
+  display: none;
+}
+
+.ac-content.open {
+  display: block;
+}
